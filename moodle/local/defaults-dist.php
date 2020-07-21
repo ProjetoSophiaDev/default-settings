@@ -37,5 +37,5 @@ $defaults['auth_ldap']['field_map_firstname'] = 'givenName'; //
 $defaults['auth_ldap']['field_map_lastname'] = 'sn'; // 
 $defaults['auth_ldap']['field_map_email'] = 'mail'; // 
 $defaults['auth_ldap']['host_url'] = 'ldap.cogeti.ct.internal'; // 
-$defaults['auth_ldap']['host_url'] = 'ou=todos,dc=utfpr,dc=edu,dc=br'; // 
+$defaults['auth_ldap']['contexts'] = 'ou=todos,dc=utfpr,dc=edu,dc=br'; // 
 
