@@ -10,7 +10,7 @@ $defaults['moodle']['custommenuitems'] = 'Tema
 -Fordson | https://mytesturl/?theme=fordson
 -Klass | https://mytesturl/?theme=klass
 -Moove | https://mytesturl/?theme=moove
-Solicitação de curso | https://mytesturl/course/request.php
+Criação de curso | https://mytesturl/course/request.php
 ';
 
 $defaults['moodle']['timezone'] = 'America/Sao_Paulo';
