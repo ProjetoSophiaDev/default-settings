@@ -10,7 +10,7 @@ $defaults['moodle']['custommenuitems'] = 'Tema
 -Fordson | https://mytesturl/?theme=fordson
 -Klass | https://mytesturl/?theme=klass
 -Moove | https://mytesturl/?theme=moove
-Solicitação de curso | https://mytesturl/course/request.php
+Criação de curso | https://mytesturl/course/request.php
 ';
 
 $defaults['moodle']['timezone'] = 'America/Sao_Paulo';
@@ -33,3 +33,12 @@ $defaults['backup']['backup_auto_active'] = 2; // Manual
 $defaults['backup']['backup_auto_storage'] = 2; // Save on backup area and external location
 $defaults['backup']['backup_auto_destination'] = '/mnt/mdl/bkp/auto';
 $defaults['backup']['backup_auto_skip_modif_prev'] = 0; // 
+
+$defaults['auth_ldap']['user_attribute'] = 'uid'; // 
+$defaults['auth_ldap']['search_sub'] = 1; // 
+$defaults['auth_ldap']['field_map_firstname'] = 'givenName'; // 
+$defaults['auth_ldap']['field_map_lastname'] = 'sn'; // 
+$defaults['auth_ldap']['field_map_email'] = 'mail'; // 
+$defaults['auth_ldap']['host_url'] = 'ldap.cogeti.ct.internal'; // 
+$defaults['auth_ldap']['host_url'] = 'ou=todos,dc=utfpr,dc=edu,dc=br'; // 
+
