@@ -18,7 +18,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'mytesturl';
-$CFG->dataroot  = 'mydataroot;
+$CFG->dataroot  = 'mydataroot';
 $CFG->admin     = 'admin';
 
 $CFG->allowthemechangeonurl = true;
