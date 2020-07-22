@@ -38,4 +38,4 @@ $defaults['auth_ldap']['field_map_lastname'] = 'sn'; //
 $defaults['auth_ldap']['field_map_email'] = 'mail'; // 
 $defaults['auth_ldap']['host_url'] = 'ldap.cogeti.ct.internal'; // 
 $defaults['auth_ldap']['contexts'] = 'ou=todos,dc=utfpr,dc=edu,dc=br'; // 
-
+$defaults['moodle']['auth'] = 'email,ldap';
